@@ -8,13 +8,15 @@ namespace MoreStorage
         [HarmonyPostfix]
         private static void LoadGameBalance()
         {
-            foreach (var itemDefinition in GameBalance.me.items_data)
+            foreach (ItemDefinition itemDefinition in GameBalance.me.items_data)
             {
-                if (itemDefinition.stack_count <= 1 || itemDefinition.stack_count >= 99999) continue;
-                var num = (int)(itemDefinition.stack_count * (double)MainPatcher.Config.StackSizeMult);
-                if (num <= 0)
-                    num = 1;
-                itemDefinition.stack_count = num;
+                if (itemDefinition.stack_count > 1 && itemDefinition.stack_count < 99999)
+                {
+                    int num = (int)((double)itemDefinition.stack_count * (double)Options.StackSizeMult);
+                    if (num <= 0)
+                        num = 1;
+                    itemDefinition.stack_count = num;
+                }
             }
         }
     }

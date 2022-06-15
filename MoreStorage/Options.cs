@@ -2,9 +2,12 @@
 {
     public class Options
     {
-        public static bool DoCraftFromAnywhere => true;
-        public static int OtherAdditional => 15;
-        public static int PlayerAdditional => 5;
-        public float StackSizeMult => 1.5f;
+        public static int PlayerAdditional { get; set; } = 5;
+
+        public static int OtherAdditional { get; set; } = 15;
+
+        public static float StackSizeMult { get; set; } = 1.5f;
+
+        public static bool DoCraftFromAnywhere { get; set; } = true;
     }
 }
