@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace FasterCraft
 {
+    [HarmonyBefore("p1xel8ted.GraveyardKeeper.QueueEverything")]
     public class MainPatcher
     {
         public static void Patch()

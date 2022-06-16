@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace MaxButton
 {
+    [HarmonyBefore("p1xel8ted.GraveyardKeeper.QueueEverything")]
     public class MainPatcher
     {
         private const string ConfigFilePathAndName = "./QMods/MaxButton/config.txt";
