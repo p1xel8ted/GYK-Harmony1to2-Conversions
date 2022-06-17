@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.IO;
 
 namespace Sprint
@@ -14,8 +15,8 @@ namespace Sprint
         {
             var streamReader = new StreamReader("./QMods/Sprint/config.txt");
             _isToggleMode = !streamReader.ReadLine().Split('=')[1].Equals("false");
-            SprintCost = (float)Convert.ToDouble(streamReader.ReadLine().Split('=')[1]);
-            SprintSpeed = (float)Convert.ToDouble(streamReader.ReadLine().Split('=')[1]);
+            SprintCost = (float)Convert.ToDouble(streamReader.ReadLine().Split('=')[1], CultureInfo.InvariantCulture);
+            SprintSpeed = (float)Convert.ToDouble(streamReader.ReadLine().Split('=')[1], CultureInfo.InvariantCulture);
         }
 
         public static Configuration GetInstance()

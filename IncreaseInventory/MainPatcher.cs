@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using System;
+using System.Globalization;
 using System.IO;
 using System.Reflection;
 using UnityEngine;
@@ -17,7 +18,7 @@ namespace IncreaseInventory
                 string[] strArray;
                 using (var streamReader = new StreamReader("./QMods/IncreaseInventory/config.txt"))
                     strArray = streamReader.ReadLine()?.Split('=');
-                NewSize = Convert.ToInt32(strArray?[1]);
+                NewSize = Convert.ToInt32(strArray?[1], CultureInfo.InvariantCulture);
 
                 var harmony = new Harmony("com.kaupcakes.graveyardkeeper.increaseinventory.mod");
                 harmony.PatchAll(Assembly.GetExecutingAssembly());

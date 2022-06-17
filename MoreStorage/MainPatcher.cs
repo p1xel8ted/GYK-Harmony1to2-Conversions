@@ -55,7 +55,7 @@ namespace MoreStorage
       "zombie_sawmill"
     };
 
-        public static Options Config;
+        private static Options _config;
         private const string ConfigPath = "./QMods/MoreStorage/config.txt";
         private const string LogPath = "./QMods/MoreStorage/log.txt";
 
@@ -107,13 +107,13 @@ namespace MoreStorage
             {
                 if (!File.Exists(ConfigPath))
                 {
-                    Config = new Options();
-                    WriteSettings(Config);
+                    _config = new Options();
+                    WriteSettings(_config);
                 }
                 else
                 {
-                    Config = Deserialize<Options>(ConfigPath);
-                    WriteSettings(Config);
+                    _config = Deserialize<Options>(ConfigPath);
+                    WriteSettings(_config);
                 }
             }
             catch (Exception ex)
