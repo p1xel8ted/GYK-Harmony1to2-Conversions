@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Please fill to the best of your ability. Can never have too much info.
-title: "[BUG] Issue with mod/tool"
+title: "[BUG] Issue with <insert mod name here>"
 labels: bug
 assignees: p1xel8ted
 
@@ -9,7 +9,6 @@ assignees: p1xel8ted
 
 **Requirements**
 - Please include a screenshot of QMod Manager Reloaded so that I can see what mods you have installed and their load order.
-- If the bug report is about QMod Manager Reloaded, a screenshot of the "Checklist" page must be attached. Any without will be ignored.
 
 **Required Logs**
 Please delete both logs and test the game again so it generates fresh logs with only relevant entries.
