@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Infinite Energy (Harmony2)")]
+[assembly: AssemblyTitle("Energy stays at max.")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Oldark")]
 [assembly: AssemblyProduct("Infinite Energy (Harmony2)")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("676217e8-cc23-424b-bbd0-e709e45ac08b")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
-[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("1.1")]
+[assembly: AssemblyVersion("1.1")]

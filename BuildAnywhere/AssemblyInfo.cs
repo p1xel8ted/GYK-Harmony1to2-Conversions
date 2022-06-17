@@ -1,14 +1,14 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("BuildAnywhere (Harmony2)")]
-[assembly: AssemblyDescription("Mod created by Fumihiko")]
+[assembly: AssemblyTitle("Ignore building areas or overlap buildings.")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Fumihiko")]
+[assembly: AssemblyCompany("Fumihiko/Fill1Morgan")]
 [assembly: AssemblyProduct("BuildAnywhere (Harmony2)")]
-[assembly: AssemblyCopyright("Copyright Fumihiko 2020")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: ComVisible(false)]
 [assembly: Guid("067df614-d989-40ed-bdbe-c47828f399fc")]
-[assembly: AssemblyFileVersion("2.0.0.0")]
-[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("1.0")]
+[assembly: AssemblyVersion("1.0")]
