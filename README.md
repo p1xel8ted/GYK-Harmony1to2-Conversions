@@ -1,8 +1,10 @@
 # Graveyard Keeper Harmony1 to Harmony2 Mod Conversions
 
-Discord
+# Discord
 
 https://discord.gg/3FKuvwggpH
+
+# Comments
 
 These mods aren't my original work, I've just converted them to work with QMod Manager Reloaded which uses Harmony2.0. If an author updates (correctly) directly on Nexus, I will remove from this repo.
  
