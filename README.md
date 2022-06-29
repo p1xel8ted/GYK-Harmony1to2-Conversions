@@ -1,5 +1,7 @@
 # Graveyard Keeper Harmony1 to Harmony2 Mod Conversions
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F2F2DI3WA)
+
 # Discord
 
 https://discord.gg/3FKuvwggpH
